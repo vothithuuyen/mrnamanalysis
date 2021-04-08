@@ -1,0 +1,11 @@
+from math import sqrt
+print ("Giải phương trình bậc 1: ax+b=0")
+
+a= float(input ("Nhập a="))
+b= float(input ("Nhập b="))
+if a>0 or a<0:
+    x=-b/a
+    print("Phương trình có nghiệm là: ",x)
+else:
+    if b==0: print("Phương trình có vô số nghiệm")
+    else :print ("Phương trình vô nghiệm")
